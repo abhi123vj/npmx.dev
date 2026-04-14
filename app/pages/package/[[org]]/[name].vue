@@ -925,7 +925,7 @@ const showSkeleton = shallowRef(false)
         </div>
 
         <PackageSidebar :class="$style.areaSidebar">
-          <div class="flex flex-col gap-4 sm:gap-6 xl:pt-4">
+          <div class="flex flex-col gap-4 sm:gap-6 lg:pt-4">
             <!-- Team access controls (for scoped packages when connected) -->
             <ClientOnly>
               <PackageAccessControls :package-name="pkg.name" />
